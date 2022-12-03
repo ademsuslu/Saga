@@ -1,0 +1,35 @@
+.home-row {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container .home-row h1 {
+    font-size: clamp(2.75rem, 6.22vw, 5.315rem);
+    font-weight: normal;
+}
+
+.home-img {
+    width: 60px;
+    height: 60px;
+    margin: 0 0 0 8px;
+}
+
+@media screen and (max-width: 780px) {
+    .home-row {
+        justify-content: center;
+    }
+
+    .container .home-row h1 {
+        font-weight: normal;
+    }
+
+    .home-img {
+        width: 40px;
+        height: 40px;
+        margin: 0 0 0 8px;
+    }
+
+
+
+}

@@ -1,0 +1,18 @@
+.About-wrapper {
+    margin: 3rem;
+    height: auto;
+}
+
+hr {
+    margin: 3rem;
+}
+
+span {
+    font-size: 14px;
+}
+
+.About-row {
+    margin: 3rem;
+    display: flex;
+    justify-content: end;
+}
